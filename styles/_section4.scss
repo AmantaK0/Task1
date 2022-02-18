@@ -1,0 +1,36 @@
+@import 'variables';
+
+/*SECTION4*/
+#section4{
+    background: linear-gradient(to bottom,#efefef,#fff calc(2rem + 7.5vw),#fff);
+    font-family: $fontFamily;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 5%;
+
+    .header4{
+        color: $fontColor2;
+        font-size: 70px;
+        padding-top: 5%;
+        padding-bottom: 2%;
+    }
+
+    .par4{
+        color: $fontColor2;
+        font: inherit;
+        font-size: 30px;
+        font-weight: 100;
+        padding-bottom: 3%;
+        line-height: 140%;
+    }
+
+    .link4{
+        text-decoration: none;
+        background-color: $buttonBackground;
+        color: $fontColor1;
+        padding: 25px;
+        border-radius: 50px;
+        width: 100%;
+    }
+    
+}

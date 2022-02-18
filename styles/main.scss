@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Script&family=Lora&family=Merriweather+Sans:wght@300&family=Noto+Sans&family=Parisienne&family=Poppins:wght@100;300&family=Roboto+Mono:wght@300;400&family=Roboto:wght@300&display=swap');
+@import 'variables';
+@import 'header';
+@import 'section2';
+@import 'section3';
+@import 'block';
+@import 'section4';
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0;
+    font-family: $fontFamily;
+}
+

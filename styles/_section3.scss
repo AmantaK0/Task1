@@ -1,0 +1,56 @@
+@import 'variables';
+
+/*SECTION2*/
+#section2{
+    text-align: center;
+    font-family: $fontFamily;
+
+    .container2{
+        width: 80%;
+        margin-left: 10%;
+        padding: 10%;
+
+        .header2{
+            color: $fontColor2;
+            text-align: justify;
+            align-items: center;
+            font-size: calc(4rem + 1vw);
+            letter-spacing: -.04em;
+            line-height: 120%;
+        }
+
+        .par2{
+            max-width: 80rem;
+            margin: 1em 0 0;
+            line-height: 140%;
+            font: inherit;
+            vertical-align: baseline;
+            color: rgba(0,0,0,.65);
+            font-weight: 100;
+            font-size: 30px;
+            text-align: justify;
+            font-size: 20px;
+            margin: 1em 0 0;
+            line-height: 140%;
+        }
+
+        .link2{
+            text-transform: uppercase;
+            text-decoration: none;
+            font-size: 1.4rem;
+            position: relative;
+            letter-spacing: .15em;
+            cursor: pointer;
+            color: #0d0630;
+            padding-top: 40px;
+            font: inherit;
+            font-weight: 700;
+            vertical-align: baseline;
+            float: left;
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
